@@ -117,6 +117,11 @@
         URL = [NSURL URLWithString:[NSString stringWithFormat:@"http://%@", URLString]];
     }
     
+    if ([URLString containsString:@" "]) {
+        NSString *spaceToSearch = [URLString stringByReplacingOccurrencesOfString:@" " withString:@"+"];
+        URL = [NSURL URLWithString:[NSString stringWithFormat:@"http://google.com/search?q=%@", spaceToSearch]];
+    }
+    
     if (URL) {
         NSURLRequest *request = [NSURLRequest requestWithURL:URL];
         [self.webView loadRequest:request];
