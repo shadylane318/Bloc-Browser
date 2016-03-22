@@ -176,3 +176,4 @@
     self.reloadButton.enabled = !self.webView.isLoading;
     }
 @end
+
