@@ -93,9 +93,6 @@
     [self.forwardButton addTarget:self.webView action:@selector(goForward) forControlEvents:UIControlEventTouchUpInside];
     [self.stopButton addTarget:self.webView action:@selector(stopLoading) forControlEvents:UIControlEventTouchUpInside];
     [self.reloadButton addTarget:self.webView action:@selector(reload) forControlEvents:UIControlEventTouchUpInside];
-    
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Welcome" message:@"Thanks for visiting. Enjoy the experience!" delegate:self cancelButtonTitle:@"Cancel"otherButtonTitles:@"Continue", nil];
-    [alert show];
 }
 
 - (void)viewDidLoad {
@@ -206,7 +203,6 @@
     self.forwardButton.enabled = [self.webView canGoForward];
     self.stopButton.enabled = self.webView.isLoading;
     self.reloadButton.enabled = !self.webView.isLoading && self.webView.URL;
-    
     }
 @end
 
