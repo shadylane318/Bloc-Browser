@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5C017FC5423906C8A51BCA26B0F1F3F02E10F5F1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5C017FC5423906C8A51BCA26B0F1F3F02E10F5F1" : 0,
+    "BBEF54CE3791DA9AF2DC0331E64250C64C0FA17E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B0503AA3-82D0-4897-A6CA-9F4F6A8B649A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5C017FC5423906C8A51BCA26B0F1F3F02E10F5F1" : "Bloc%20Browser\/",
+    "BBEF54CE3791DA9AF2DC0331E64250C64C0FA17E" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BlocBrowser",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BlocBrowser\/BlocBrowser.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shadylane318\/Bloc-Browser.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5C017FC5423906C8A51BCA26B0F1F3F02E10F5F1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shadylane318\/Bloc-Training.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BBEF54CE3791DA9AF2DC0331E64250C64C0FA17E"
+    }
+  ]
+}
