@@ -91,6 +91,7 @@
     self.webView.frame = CGRectMake(0, CGRectGetMaxY(self.textField.frame), width, browserHeight);
     self.awesomeToolbar.frame = CGRectMake(20, 100, 280, 60);
     }
+
 - (void) floatingToolbar:(AwesomeFloatingToolbar *)toolbar didTryToPanWithOffset:(CGPoint)offset {
     CGPoint startingPoint = toolbar.frame.origin;
     CGPoint newPoint = CGPointMake(startingPoint.x + offset.x, startingPoint.y + offset.y);
