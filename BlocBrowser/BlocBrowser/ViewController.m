@@ -153,14 +153,14 @@
 #pragma mark - AwesomeFloatingToolbarDelegate
 
 - (void) floatingToolbar:(AwesomeFloatingToolbar *)toolbar didSelectButtonWithTitle:(NSString *)title {
-    if ([title isEqual:NSLocalizedString(@"Back", @"Back command")]) {
-        [self.webView goBack];
-    } else if ([title isEqual:NSLocalizedString(@"Forward", @"Forward command")]) {
-        [self.webView goForward];
-    } else if ([title isEqual:NSLocalizedString(@"Stop", @"Stop command")]) {
-        [self.webView stopLoading];
-    } else if ([title isEqual:NSLocalizedString(@"Refresh", @"Reload command")]) {
-        [self.webView reload];
+    if ([title isEqual:kWebBrowserBackString]) {
+    [self.webView goBack];
+    } else if ([title isEqual:kWebBrowserForwardString]) {
+    [self.webView goForward];
+    } else if ([title isEqual:kWebBrowserStopString]) {
+    [self.webView stopLoading];
+    } else if ([title isEqual:kWebBrowserRefreshString]) {
+    [self.webView reload];
     }
 }
 
@@ -182,7 +182,7 @@
     [self.awesomeToolbar setEnabled:[self.webView canGoForward] forButtonWithTitle:kWebBrowserForwardString];
     [self.awesomeToolbar setEnabled:[self.webView isLoading] forButtonWithTitle:kWebBrowserStopString];
     [self.awesomeToolbar setEnabled:![self.webView isLoading] && self.webView.URL forButtonWithTitle:kWebBrowserRefreshString];
-
-    }
+    
+}
 @end
 
